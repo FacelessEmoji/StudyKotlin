@@ -1,6 +1,6 @@
 package lab1
 
-fun main(args: Array<String>) {
+fun main() {
     println("\"Иван\"")
     println(35)
     println(true)
