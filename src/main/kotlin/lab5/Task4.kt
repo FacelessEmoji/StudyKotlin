@@ -7,7 +7,7 @@ fun countWords(input: String): Int {
 }
 
 fun main() {
-    val inputString = "Это строка, которую мы будем анализировать; ,.;.и ,,подсчитывать количество слов в ней." //12
+    val inputString = "Это строка, которую мы будем анализировать; ,.  ;.и ,,подсчитывать количество слов в ней." //12
     val wordCount = countWords(inputString)
     println("Количество слов в строке: $wordCount")
 }
