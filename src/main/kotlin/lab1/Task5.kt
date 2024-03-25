@@ -1,9 +1,9 @@
 package lab1
 
 fun main() {
-    conсatenate(23)
+    concatenate(23)
 }
 
-fun conсatenate(number: Int){
+fun concatenate(number: Int){
     println("${number}${number*2}")
 }
