@@ -8,7 +8,7 @@ fun calculateFinalPrice(initialPrice: Double, discountPercent: Double): String {
 }
 
 fun main() {
-    val initialPrice = 99.0
+    val initialPrice = 99.9
     val discountPercent = 20.0
     val finalPrice = calculateFinalPrice(initialPrice, discountPercent)
     println("Исходная цена: $initialPrice")
